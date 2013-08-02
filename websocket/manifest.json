@@ -1,0 +1,26 @@
+{
+	"appID": "0b14b3f0f7df43159bf5a060ebef4552",
+	"shortName": "websocketBasic",
+	"title": "WebSocket: Basic",
+	"studio": {
+		"name": "Gentle Zombies",
+		"domain": "gentlezombies.com",
+		"stagingDomain": "staging.gentlezombies.com"
+	},
+	"supportedOrientations": [
+		"portrait",
+		"landscape"
+	],
+	"android": {
+		"versionCode": 1
+	},
+	"ios": {
+		"bundleID": "example.bundle",
+		"appleID": "1234567",
+		"version": "1.0.0"
+	},
+	"addons": [
+		"websocket"
+	],
+	"sdkVersion": "release-0.1.30"
+}
