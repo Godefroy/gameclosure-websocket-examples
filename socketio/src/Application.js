@@ -2,11 +2,14 @@ import device;
 
 import plugins.websocket.install;
 
+var ip = "192.168.0.12";
+var port = 1337;
+
 exports = Class(GC.Application, function() {
 
   this.initUI = function() {
 
-    var socket = io.connect('http://192.168.0.12:1337');
+    var socket = io.connect("http://" + ip + ":" + port);
     socket.on('test1', function (data) {
       logger.log("Socket.io event: test1 " + data);
       setTimeout(function() {

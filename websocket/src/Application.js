@@ -2,12 +2,15 @@ import device;
 
 import plugins.websocket.install;
 
+var ip = "192.168.0.12";
+var port = 1337;
+
 exports = Class(GC.Application, function() {
 
   this.initUI = function() {
 
     var i = 0;
-    var websocket = new WebSocket("ws://192.168.0.12:1337", "echo-protocol");
+    var websocket = new WebSocket("ws://" + ip + ":" + port, "echo-protocol");
     this.websocket = websocket;
     websocket.onopen = function() {
       websocket.send("test onopen");

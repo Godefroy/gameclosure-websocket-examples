@@ -1,0 +1,9 @@
+{
+    "name": "websocket-test",
+    "dependencies": {
+        "websocket": "*"
+    },
+    "scripts": {
+        "start": "node websocket.js"
+    }
+}

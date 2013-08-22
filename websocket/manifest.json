@@ -22,5 +22,5 @@
 	"addons": [
 		"websocket"
 	],
-	"sdkVersion": "release-0.1.30"
+	"sdkVersion": "release-0.1.32"
 }

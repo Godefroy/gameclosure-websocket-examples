@@ -1,0 +1,9 @@
+{
+    "name": "socket.io-test",
+    "dependencies": {
+        "socket.io": "*"
+    },
+    "scripts": {
+        "start": "node socketio.js"
+    }
+}
